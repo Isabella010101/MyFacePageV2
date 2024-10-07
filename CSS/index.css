@@ -1,4 +1,185 @@
+/* Definições padrões */
 * {
     box-sizing: border-box;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6rem;
 }
+
+/* 
+===================================================================================================================================================
+BODY
+*/
+
+body {
+    /* imagem de fundo */
+    background-image: url(/imagens/eminem2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    /* zerando */
+    padding: 0;
+    margin: 0;
+}
+
+/* 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+header
+*/
+
+header {
+    background-color: black;
+    color: white;
+
+    padding: 10px;
+
+    /* ativando o flex e colocando um espaço entre os elementos do header */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+/* __________________________navegador_________________________ */
+
+nav {
+    display: flex;
+}
+
+/* container com lista */
+.nav {
+    display: flex;   
+    list-style: none; 
+}
+
+/* elemento sobre na lista */
+.sobre {
+    margin-right: 20px;
+}
+
+/* imagem menu */
+.menu {
+    height: 50px;
+}
+
+/* ___________________ container a contendo o perfil____________________ */
+.a {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* container com os elementos de usuário */
+.usuario {
+    display: flex;
+}
+
+/* imagem usuário*/
+.user {
+    height: 20px;
+    margin-top: 18px;
+    margin-right: 5px;
+}
+
+/* nome */
+.nome {
+    margin-right: 10px;
+}
+
+/* imagem bebê */
+.bb {
+    height: 50px;
+    border-radius: 10px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------
+MAIN
+*/
+
+/* definições da primeira parte do main */
+
+main {
+    margin-bottom: 100px;
+}
+
+.main1 {
+    background-color: #f5f5f5;
+    
+    margin-top: 20px;
+    margin-left: 300px;
+    padding: 20px;
+
+    border-radius: 10px;
+
+    width: 60%;
+
+    opacity: 0.9;
+
+    
+}
+
+.main1 h1 {
+    text-align: center;
+}
+
+/* definições do section sobre */
+.sobre2 {
+    background-color: #f5f5f5;
+    
+    margin-top: 20px;
+    margin-left: 300px;
+    padding: 20px;
+
+    border-radius: 10px;
+
+    width: 60%;
+
+    opacity: 0.9;
+}
+
+/* definições do section contato */
+.contato {
+    background-color: #f5f5f5;
+    
+    margin-top: 20px;
+    margin-left: 300px;
+    padding: 20px;
+
+    border-radius: 10px;
+
+    width: 60%;
+
+    opacity: 0.9;
+}
+
+/* definições do section interesses */
+.interesses {
+    background-color: #f5f5f5;
+    
+    margin-top: 20px;
+    margin-left: 300px;
+    padding: 20px;
+
+    border-radius: 10px;
+
+    width: 60%;
+
+    opacity: 0.9;
+}
+
+/* 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+FOOTER */
+
+footer {
+    background-color: black;
+    color: white;
+
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+
+    text-align: center;
+}
+
+
+
