@@ -23,7 +23,7 @@ body {
 }
 
 /* 
---------------------------------------------------------------------------------------------------------------------------------------------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 header
 */
 
@@ -35,7 +35,6 @@ header {
 
     /* ativando o flex e colocando um espaço entre os elementos do header */
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-between;
 }
 
@@ -56,108 +55,52 @@ nav {
     margin-right: 20px;
 }
 
+/* elemento contato */
+.cont {
+    margin-right: 20px;
+}
+
+/* elemento home */
+.link2 {
+    text-decoration: none;
+    color: white;
+}
+
 /* imagem menu */
 .menu {
     height: 50px;
 }
 
-/* ___________________ container a contendo o perfil____________________ */
-.a {
-    display: flex;
-    justify-content: flex-end;
-}
-
-/* container com os elementos de usuário */
-.link {
-    display: flex;
-    text-decoration: none;
-    color: white;
-}
-
-/* imagem usuário*/
-.user {
-    height: 20px;
-    margin-top: 20px;
-    margin-right: 5px;
-}
-
-/* nome */
-.nome {
-    margin-right: 10px;
-}
-
-/* imagem bebê */
-.bb {
-    height: 50px;
-    border-radius: 10px;
-}
-
-/* --------------------------------------------------------------------------------------------------------------------------------------------------
+/* 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 MAIN
 */
 
-/* definições da primeira parte do main */
-
 main {
-    margin-bottom: 100px;
-}
-
-.main1 {
     background-color:rgba(245, 245, 245, 0.8);
-    
+
     margin-top: 20px;
     margin-left: 300px;
     padding: 20px;
 
     border-radius: 10px;
 
-    width: 60%;    
+    width: 60%;  
+
+    display: flex;
 }
 
-.main1 h1 {
-    text-align: center;
+/* imagem foto de perfil */
+.bb {
+    height: 300px;
+
+    margin: 10px;
+
+    border-radius: 50px;
 }
 
-/* definições do section sobre */
-.sobre2 {
-    background-color:rgba(245, 245, 245, 0.8);
-    
-    margin-top: 20px;
-    margin-left: 300px;
-    padding: 20px;
 
-    border-radius: 10px;
 
-    width: 60%;
-
-}
-
-/* definições do section contato */
-.contato {
-    background-color:rgba(245, 245, 245, 0.8);
-    
-    margin-top: 20px;
-    margin-left: 300px;
-    padding: 20px;
-
-    border-radius: 10px;
-
-    width: 60%;
-
-}
-
-/* definições do section interesses */
-.interesses {
-    background-color:rgba(245, 245, 245, 0.8);
-    
-    margin-top: 20px;
-    margin-left: 300px;
-    padding: 20px;
-
-    border-radius: 10px;
-
-    width: 60%;
-}
 
 /* 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -182,41 +125,19 @@ responsividade
 
 @media screen and (max-width: 768px) {
 
-        .main1 {
+        main {
             width: 92%;
             margin: 20px;
 
             background-color: rgba(0, 0, 0, 0.8);
             color: white;
+
+            display: flex;
+            flex-direction: column;
         }
 
-        
-
-        .sobre2 {
-            width: 92%;
-            margin: 20px;
-
-            background-color: rgba(0, 0, 0, 0.8);
-            color: white;
-        }
-
-        .contato {
-            width: 92%;
-            margin: 20px;
-
-            background-color: rgba(0, 0, 0, 0.8);
-            color: white;
-        }
-
-        .interesses {
-            width: 92%;
-            margin: 20px;
-
-            background-color: rgba(0, 0, 0, 0.8);
-            color: white;
-        }
 
         body {
             background-image: url(/imagens/WhatsApp\ Image\ 2024-10-07\ at\ 10.39.56.jpeg);
         }
-    }
+    }    
