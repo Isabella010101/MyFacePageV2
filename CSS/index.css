@@ -101,7 +101,7 @@ main {
 }
 
 .main1 {
-    background-color: #f5f5f5;
+    background-color:rgba(245, 245, 245, 0.8);
     
     margin-top: 20px;
     margin-left: 300px;
@@ -122,7 +122,7 @@ main {
 
 /* definições do section sobre */
 .sobre2 {
-    background-color: #f5f5f5;
+    background-color:rgba(245, 245, 245, 0.8);
     
     margin-top: 20px;
     margin-left: 300px;
@@ -137,7 +137,7 @@ main {
 
 /* definições do section contato */
 .contato {
-    background-color: #f5f5f5;
+    background-color:rgba(245, 245, 245, 0.8);
     
     margin-top: 20px;
     margin-left: 300px;
@@ -152,7 +152,7 @@ main {
 
 /* definições do section interesses */
 .interesses {
-    background-color: #f5f5f5;
+    background-color:rgba(245, 245, 245, 0.8);
     
     margin-top: 20px;
     margin-left: 300px;
@@ -166,7 +166,7 @@ main {
 }
 
 /* 
---------------------------------------------------------------------------------------------------------------------------------------------------
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 FOOTER */
 
 footer {
@@ -179,6 +179,53 @@ footer {
     width: 100%;
 
     text-align: center;
+}
+
+/* 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+responsividade
+*/
+
+@media screen and (max-width: 768px) {
+
+        .main1 {
+            width: 92%;
+            margin: 20px;
+
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+
+        
+
+        .sobre2 {
+            width: 92%;
+            margin: 20px;
+
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+
+        .contato {
+            width: 92%;
+            margin: 20px;
+
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+
+        .interesses {
+            width: 92%;
+            margin: 20px;
+
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+        }
+
+        body {
+            background-image: url(/imagens/WhatsApp\ Image\ 2024-10-07\ at\ 10.39.56.jpeg);
+        }
+    
 }
 
 
