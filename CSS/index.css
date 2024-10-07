@@ -97,7 +97,6 @@ MAIN
 */
 
 /* definições da primeira parte do main */
-
 main {
     margin-bottom: 100px;
 }
@@ -180,8 +179,10 @@ footer {
 responsividade
 */
 
+/* para páginas com largunras menores que 768 pixels */
 @media screen and (max-width: 768px) {
 
+        /* primeiro main */
         .main1 {
             width: 92%;
             margin: 20px;
@@ -190,8 +191,7 @@ responsividade
             color: white;
         }
 
-        
-
+        /* section de sobre */
         .sobre2 {
             width: 92%;
             margin: 20px;
@@ -200,6 +200,7 @@ responsividade
             color: white;
         }
 
+        /* section do contato */
         .contato {
             width: 92%;
             margin: 20px;
@@ -208,6 +209,7 @@ responsividade
             color: white;
         }
 
+        /* section de interesses */
         .interesses {
             width: 92%;
             margin: 20px;
@@ -216,6 +218,7 @@ responsividade
             color: white;
         }
 
+        /* imagem de fundo do body */
         body {
             background-image: url(/imagens/WhatsApp\ Image\ 2024-10-07\ at\ 10.39.56.jpeg);
         }

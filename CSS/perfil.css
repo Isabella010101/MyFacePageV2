@@ -125,6 +125,7 @@ responsividade
 
 @media screen and (max-width: 768px) {
 
+        /* definições do main em telas menores */
         main {
             width: 92%;
             margin: 20px;
@@ -136,7 +137,7 @@ responsividade
             flex-direction: column;
         }
 
-
+        /* imagem de fundo do body */
         body {
             background-image: url(/imagens/WhatsApp\ Image\ 2024-10-07\ at\ 10.39.56.jpeg);
         }
